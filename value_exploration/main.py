@@ -55,7 +55,7 @@ if __name__ == "__main__":
     convergence_threshold = 0.0001
     payoff = 100
     payoff_loc = (1,3)
-    cost = -1
+    cost = -200
     reward = Reward(payoff_loc, payoff=payoff, cost=cost)
     transition = Transition()
     world = GridWorld(xdim, ydim, reward, transition)
